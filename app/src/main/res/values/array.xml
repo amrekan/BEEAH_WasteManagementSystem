@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="waste_type">
+        <item>Select waste type</item>
+        <item>General Waste (Residual waste)</item>
+        <item>Recyclable Waste</item>
+        <item>Organic Waste</item>
+        <item>Hazardous Waste</item>
+        <item>Electronic Waste (E-waste)</item>
+        <item>Bulky Waste</item>
+        <item>Construction and Demolition Waste</item>
+    </string-array>
+
+</resources>

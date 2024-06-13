@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "443307559726",
+    "project_id": "mehmood-beeah-wms",
+    "storage_bucket": "mehmood-beeah-wms.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443307559726:android:5f8f4769385d8e181508bf",
+        "android_client_info": {
+          "package_name": "com.example.mehmood_beeah_wastemanagementsystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr4aBQu7VEtsijV7AEDqePu4fXz7oCpxg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

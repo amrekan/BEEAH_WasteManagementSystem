@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MehmoodBEEAHWasteManagementSystem"
+        tools:targetApi="31">
+        <activity
+            android:name=".Admin.AdminDeleteBinLocation"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminViewBinLocation"
+            android:exported="false" />
+        <activity
+            android:name=".NotificationMessage"
+            android:exported="false" />
+        <activity
+            android:name=".ViewWasteGuidance"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminDeleteAccount"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.ViewFeedback"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.ViewComplaint"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AddBinLocator"
+            android:exported="false" />
+        <activity
+            android:name=".CusDeleteAccount"
+            android:exported="false" />
+        <activity
+            android:name=".AddFeedback"
+            android:exported="false" />
+        <activity
+            android:name=".AddComplain"
+            android:exported="false" />
+        <activity
+            android:name=".FindBinLocator"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteSchedule"
+            android:exported="false" />
+        <activity
+            android:name=".ViewSchedule"
+            android:exported="false" />
+        <activity
+            android:name=".AddSchedule"
+            android:exported="false" />
+        <activity
+            android:name=".SelectUser"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.ForgetPassword1"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminHome"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminLogin"
+            android:exported="false" />
+        <activity
+            android:name=".ForgetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Registration"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <receiver android:name=".AlarmBroadcast" />
+    </application>
+
+</manifest>
